@@ -1,0 +1,18 @@
+Source: psmisc
+Section: unknown
+Priority: optional
+Maintainer: Jackson Hansen <madjack971@bsdmail.com>
+Build-Depends: debhelper-compat (= 13), dh-autoreconf
+Standards-Version: 4.5.1
+Homepage: http://psmisc.sf.net/
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/maddjack2020/psmisc.git
+Vcs-Browser: https://github.com/maddjack2020/psmisc
+
+Package: psmisc
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: auto-generated package by debmake
+ The Psmisc package contains programs for displaying information about running
+ processes.
